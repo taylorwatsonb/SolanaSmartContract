@@ -7,14 +7,14 @@ from components import (
 from utils.solana_client import SolanaClient
 
 st.set_page_config(
-    page_title="Solana Explorer",
+    page_title="Taylor's Solana Explorer",
     page_icon="🌟",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 def main():
-    st.title("🌟 Solana Blockchain Explorer")
+    st.title("🌟 Taylor's Solana Blockchain Explorer")
 
     # Initialize Solana client
     client = SolanaClient()
